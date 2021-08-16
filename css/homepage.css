@@ -1,0 +1,48 @@
+body {
+  background-image: url('https://www.wallpapers13.com/wp-content/uploads/2016/01/Sunset-Background-Images-Hd-Sunset-background-images-hd-07329-915x515.jpg');
+}
+
+.title {
+  color: red;
+  font-size: 5rem;
+  font-family: cursive;
+  text-align: center;
+}
+
+.link {
+  padding-left: 50%;
+  color: red;
+  font-family: cursive;
+  font-size: 3rem;
+  animation: flashing-text 1s linear infinite;
+}
+
+@keyframes flashing-text {
+  50% {
+    color: indigo;
+  }
+}
+
+.link:hover {
+  color: blue;
+}
+
+.titel:hover {
+  color: blue;
+}
+
+.box {
+  width: 500px;
+  height: 350px;
+  border-style: dotted;
+  border-color: green;
+  border-radius: 50px;
+}
+
+.image {
+  width: 20%;
+}
+
+#boxed-img {
+  width: 50%;
+}
